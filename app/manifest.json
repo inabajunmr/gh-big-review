@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "gh-big-review",
+  "version": "1.0.0",
+  "description": "GitHub file diff to TODO List.",
+  "browser_action": {
+    "default_title": "TODO list!"
+  },
+  "permissions": [
+    "https://github.com/*"],
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "run_at": "document_end",
+      "js": ["scripts/main.js"]
+    }
+  ]
+}
