@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "gh-big-review",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub file diff to TODO List.",
   "browser_action": {
     "default_title": "TODO list!"

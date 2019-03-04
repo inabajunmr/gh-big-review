@@ -35,20 +35,20 @@ function toggle(e) {
 }
 
 function headerToggle(e) {
-  if (e.target.style.backgroundColor === "gray") {
+  if (e.target.style.backgroundColor === "silver") {
     e.target.style.backgroundColor = "";
     return
   }
 
-  e.target.style.backgroundColor = "gray";
+  e.target.style.backgroundColor = "silver";
 }
 
 function infoToggle(e) {
-  if (e.target.parentNode.style.backgroundColor === "gray") {
+  if (e.target.parentNode.style.backgroundColor === "silver") {
     e.target.parentNode.style.backgroundColor = "";
     return
   }
 
-  e.target.parentNode.style.backgroundColor = "gray";
+  e.target.parentNode.style.backgroundColor = "silver";
 
 }
