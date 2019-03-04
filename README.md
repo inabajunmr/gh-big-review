@@ -1,4 +1,4 @@
-# gh-review-todo
+# gh-big-review
 Chrome extension for using GitHub review page as TODO List.
 
 [Chrome webstore](https://chrome.google.com/webstore/detail/gh-big-review/kehopiiepaijcngedhlfkaoigjgcglhn)
